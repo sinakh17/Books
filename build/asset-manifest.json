@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9dd809f.css",
+    "main.js": "/static/js/main.44331202.js",
+    "static/js/787.f5db70bc.chunk.js": "/static/js/787.f5db70bc.chunk.js",
+    "static/media/jpg": "/static/media/3397925537325462.8539a3831b11f7322a55.jpg",
+    "static/media/d59b9ad4_1603886505.jpg": "/static/media/3ebe81d0c5ad9b687ffa4a8515678d7dd59b9ad4_1603886505.072c5e5e5eb2c7cc4f02.jpg",
+    "static/media/1-min-1-2-3-4.jpg": "/static/media/1-min-1-2-3-4.3414fbd56c0e26ffc6ef.jpg",
+    "static/media/مهره-حیاتی-1-min.jpg": "/static/media/مهره-حیاتی-1-min.e62afd7078af2426b1f0.jpg",
+    "index.html": "/index.html",
+    "main.a9dd809f.css.map": "/static/css/main.a9dd809f.css.map",
+    "main.44331202.js.map": "/static/js/main.44331202.js.map",
+    "787.f5db70bc.chunk.js.map": "/static/js/787.f5db70bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9dd809f.css",
+    "static/js/main.44331202.js"
+  ]
+}

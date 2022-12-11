@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(45deg, rgb(132, 0, 255) 60%, rgb(0, 89, 255));
+}
+.container h1 {
+  color: white;
+}
+.container p {
+  color: white;
+}
+.wellcome {
+  font-weight: 600;
+  font-size: 20px;
+}
+.btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  margin-top: 50px;
+  transition: all ease-out 0.3s;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transition: all ease-out 0.3s;
+  -moz-transition: all ease-out 0.3s;
+  -ms-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
+}
+.btn:hover {
+  background-color: rgb(179, 176, 13);
+}
+.cards {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.card {
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.445);
+  text-align: right;
+}
+.card .header {
+  width: 100%;
+}
+.card .body {
+  padding: 0px 10px;
+}
+.card .header span {
+  margin-right: 10px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.card1 {
+  width: 200px;
+  height: 210px;
+}
+.card2 {
+  width: 200px;
+  height: 250px;
+}
+.card3 {
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+.card4 {
+  width: 200px;
+  height: 250px;
+  z-index: 1;
+}
+.card5 {
+  width: 200px;
+  height: 210px;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-top: 60px;
+    justify-content: space-between;
+  }
+  .container h1 {
+    font-size: 24px;
+  }
+  .container p {
+    margin: 0 20px;
+  }
+  .cards {
+    position: relative;
+    bottom: auto;
+  }
+  .card .header span {
+    margin-right: 0px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .card1 {
+    width: 58px;
+    height: 170px;
+  }
+  .card2 {
+    width: 58px;
+    height: 220px;
+  }
+  .card3 {
+    width: 158px;
+    height: 270px;
+  }
+  .card4 {
+    width: 58px;
+    height: 220px;
+  }
+  .card5 {
+    width: 58px;
+    height: 170px;
+  }
+  .card img {
+    height: 120px;
+  }
+  .body {
+    display: none;
+  }
+  .card3 .body {
+    display: flex;
+    margin-top: 10px;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+}
